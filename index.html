@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nhạc của Huy</title>
+    <link rel="shortcut icon" href="https://icon-library.com/images/music-icon/music-icon-5.jpg">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,1,0"
+    />
+    <link rel="stylesheet" href="./asset/css/main.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="player">
+        <!-- Dashboard -->
+        <div class="player__wrapper">
+          <!-- Header -->
+          <header>
+            <h4>Now playing</h4>
+          </header>
+
+          <!-- CD -->
+          <div class="cd">
+            <div
+              class="cd-thumb"
+              style="
+                background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg');
+              "
+            ></div>
+          </div>
+
+          <!-- Song's name and singer -->
+          <div class="songCurrent">
+            <h2 class="song__name"></h2>
+            <h3 class="song__singer"></h3>
+          </div>
+
+          <!-- Progress -->
+          <div class="progress__area">
+            <div class="progress__bar">
+              <div class="progress"></div>
+            </div>
+
+            <!-- Timer -->
+            <span class="timer">
+              <span id="begin"></span>
+              <span id="end"></span>
+            </span>
+          </div>
+
+          <!-- Control -->
+          <div class="control">
+            <span id="open-playlist" class="material-symbols-rounded">
+              queue_music
+            </span>
+            <span id="btn-prev" class="material-symbols-rounded">
+              skip_previous
+            </span>
+            <span id="btn-toggle-play" class="material-symbols-rounded">
+              play_circle
+            </span>
+            <span id="btn-next" class="material-symbols-rounded"
+              >skip_next</span
+            >
+            <span id="btn-repeat" class="material-symbols-rounded">repeat</span>
+          </div>
+
+          <!-- Volume -->
+          <div class="volume__area">
+            <span id="volume-icon" class="material-symbols-rounded"
+              >volume_up</span
+            >
+            <div class="volume__wrapper">
+              <div class="volume__bar">
+                <div class="volume"></div>
+              </div>
+            </div>
+          </div>
+
+          <audio id="audio" src=""></audio>
+        </div>
+
+        <!-- Playlist -->
+        <div class="playlist">
+          <div class="playlist__header">
+            <div class="playlist__title">
+              <span class="material-symbols-rounded"> queue_music </span>
+              <div class="playlist__label">My playlist</div>
+            </div>
+
+            <span id="close-playlist" class="material-symbols-rounded">close</span>
+          </div>
+
+          <ul class="playlist__wrapper"></ul>
+        </div>
+      </div>
+      <div class="footer">
+        <span>Powered by</span>
+        <a href="https://www.facebook.com/tuilahuyday.galvin/">Quang Huy</a>
+      </div>
+    </div>
+
+    <script src="./asset/js/app.js"></script>
+  </body>
+</html>

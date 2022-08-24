@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #ec1f55;
+    --text-color: #333;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+  }
+
+  html {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    color: var(--text-color);
+  }
+  
+  .wrapper {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #33ccff 5%, #c1dbf8 75%);
+  }
+
+  .player {
+    position: relative;
+    width: 100%;
+    max-width: 360px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    overflow: hidden;
+  }
+  
+  .player .icon-pause {
+    display: none;
+  }
+  
+  .player.playing .icon-pause {
+    display: inline-block;
+  }
+  
+  .player.playing .icon-play {
+    display: none;
+  }
+  
+  .player__wrapper {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* HEADER */
+  header {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  header h4 {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  
+  /* CD */
+  .cd {
+    width: 210px;
+  }
+  
+  .cd-thumb {
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    background-color: #333;
+    background-size: cover;
+
+  }
+
+  /* SONG */
+  .songCurrent {
+    display: block;
+    padding: 25px 0 30px;
+  }
+
+  .song__name {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+    line-height: 2.5rem;
+  }
+
+  .song__singer {
+    font-size: 1.6rem;
+    opacity: 0.8;
+    font-weight: 400;
+  }
+  
+  /* CONTROL */
+  .control {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .material-symbols-rounded {
+    font-size: 3rem;
+    user-select: none;
+    background-color: #4dd2ff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    }
+
+    #btn-toggle-play {
+      font-size: 5.5rem;
+    }
+  
+    /* progress */
+  
+  .progress__area {
+    width: 100%;
+  }
+  
+  .progress__bar,
+  .volume__bar {
+    height: 7px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #e7e7e7;
+    cursor: pointer;
+  }
+
+  .progress,
+  .volume {
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90deg, #c1dbf8 20%, #66d9ff 40%);
+    border-radius: 3px;
+    position: relative;
+    pointer-events: none;
+  }
+
+  .progress::after,
+  .volume::after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: -6px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: #00ccff;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .progress__bar:hover .progress::after,
+  .volume__bar:hover .volume::after {
+    opacity: 0.8;
+  }
+
+  /* TIMER */
+  .timer {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 20px;
+    font-size: 1.6rem;
+  }
+  
+
+  /* PLAYLIST */
+  .playlist {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+    border-radius: 20px;
+    background-color: #fff;
+    transform: translateY(100%);
+    transition: all 0.2s ease-out;
+    z-index: 2;
+  }
+
+  .playlist.active {
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.3);
+    transform: translateY(0%);
+    opacity: 1;
+  }
+ 
+  .playlist__header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 25px;
+  }
+
+  .playlist__header .material-symbols-rounded:first-child {
+    pointer-events: none;
+    margin-right: 10px;
+  }
+  .playlist__header .material-symbols-rounded {
+    background-color: var(--text-color);
+    opacity: 0.6;
+  }
+
+  .playlist__title {
+    display: flex;
+    align-items: center;
+  }
+
+  .playlist__label {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .playlist__wrapper {
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 60px);
+    bottom: 0;
+  }
+
+  .playlist__wrapper::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .playlist-item {
+    position: relative;
+    width: 100%;
+    padding: 14px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(225, 225, 255);
+  }
+
+  .playlist-item:hover {
+    background: linear-gradient(90deg, #33ccff 15% , #bad7f7 80%);
+    color: #fff;
+  }
+
+  .playlist-item__thumb{
+    width: 55px;
+    height: 55px;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .playlist-item__info{
+    flex-grow: 1;
+    margin-left: 15px;
+    text-align: left;
+  }
+
+  .playlist-item__name{
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2rem;
+  }
+
+  .playlist-item__singer{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-top: 12px;
+  }
+
+  /* Playlist sound wave */
+  .wave {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+  }
+
+  .stroke {
+    display: block;
+    position: relative;
+    background-color: #0066ff;
+    height: 100%;
+    width: 4px;
+    border-radius: 2px;
+    margin: 0 2px;
+    animation: wave 1.2s linear infinite;
+  }
+
+  @keyframes wave {
+    50% {
+      height: 20%;
+    }
+    100% {
+      height: 100%;
+    }
+  }
+
+  .stroke:nth-child(2) {
+    animation-delay: 0.3s;
+  }
+  .stroke:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  .stroke:nth-child(4) {
+    animation-delay: 0.3s;
+  }
+  
+
+
+  /* VOLUME */
+  .volume__area {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .volume__area .material-symbols-rounded {
+    font-size: 2rem;
+  }
+
+  .volume__wrapper:hover .volume__bar {
+    height: 5px;
+  }
+  
+  .volume__bar {
+    width: 150px;
+    height: 4px;
+    margin-left: 12px;
+  }
+
+  .volume {
+    width: 70%;
+    background-color: #33ccff;
+    opacity: 0.8;
+  }
+  
+  .volume::after {
+    height: 10px;
+    width: 10px;
+    background-color: #33ccff;
+    right: -4px;
+    border: 2px solid #fff;
+    outline: 0.1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+  }
+
+  .footer a {
+    color: var(--text-color);
+  }
+
