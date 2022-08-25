@@ -333,7 +333,7 @@
     animation-delay: 0.3s;
   }
   
-  
+
   /* VOLUME */
   .volume__area {
     display: flex;
@@ -419,6 +419,7 @@
     }
 
     .footer {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
+      bottom: 3px;
     }
   }
