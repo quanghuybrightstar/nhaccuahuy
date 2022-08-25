@@ -333,13 +333,12 @@
     animation-delay: 0.3s;
   }
   
-
-
+  
   /* VOLUME */
   .volume__area {
     display: flex;
     align-items: center;
-    margin: 13px 35px 0 0;
+    margin: 13px 33px 0 0;
   }
 
   .volume__area .material-symbols-rounded {

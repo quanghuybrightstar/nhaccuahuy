@@ -89,7 +89,7 @@ const app = {
         },
         {
             name: "NGƯỜI ĐÁNG THƯƠNG LÀ ANH",
-            singer: "OnlyC ft Nguyễn Phúc Thiện",
+            singer: "OnlyC ft. Nguyễn Phúc Thiện",
             path: "./asset/music/nguoi_dang_thuong_la_anh.mp3",
             image: "https://i.scdn.co/image/ab67616d00001e02d6186b7d1cd7e073469bd866",
         },
@@ -98,6 +98,12 @@ const app = {
             singer: "DATKAA",
             path: "./asset/music/datkaa_nguoi_co_thuong.mp3",
             image: "https://i.scdn.co/image/ab67616d0000b27356d43cd0de05de88ee177766",
+        },
+        {
+            name: "DỪNG THƯƠNG",
+            singer: "DATKAA",
+            path: "./asset/music/dung_thuong_datkaa.mp3",
+            image: "https://i.scdn.co/image/ab67616d0000b273dad54ced51a6243fcd495206",
         },
         {
             name: "CHIỀU THU HỌA BÓNG NÀNG",
@@ -140,6 +146,18 @@ const app = {
             singer: "dhruv",
             path: "./asset/music/double_take_dhruv.mp3",
             image: "https://i.ytimg.com/vi/lar8IBF_4II/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBE_DlB15Wxat_3llVqZX1NtAF0vw",
+        },
+        {
+            name: "Đi Theo Bóng Mặt Trời",
+            singer: "Đen ft. Tăng Ngân Hà",
+            path: "./asset/music/den_di_theo_bong_mat_troi_ft_tang_ngan_ha.mp3",
+            image: "https://i.scdn.co/image/ab67616d00001e022fb6442b420a851093bd3282",
+        },
+        {
+            name: "Ai muốn nghe không",
+            singer: "Đen",
+            path: "./asset/music/den_ai_muon_nghe_khong.mp3",
+            image: "https://i.scdn.co/image/ab67616d0000b27365896c6baea3e99f033ed03d",
         },
     ],
 
@@ -363,7 +381,7 @@ const app = {
             const seekVolume = e.offsetX / e.target.offsetWidth;
             audio.volume = seekVolume;
         };
-        
+
         volumeBar.onmousemove = function (e) {
             if (isHoldingVolume) {
                 const seekVolume = e.offsetX / e.target.offsetWidth;
