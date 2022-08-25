@@ -423,7 +423,7 @@
 
       .footer {
         font-size: 1rem;
-        bottom: 0px;
+        bottom: -2px;
       }
     }
   }
