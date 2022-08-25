@@ -418,8 +418,12 @@
       font-size: 7.2rem;
     }
 
-    .footer {
-      font-size: 1.1rem;
-      bottom: 1px;
+    /* Mobile */
+    @media (max-width: 46.1875em) {
+
+      .footer {
+        font-size: 1rem;
+        bottom: 0px;
+      }
     }
   }
