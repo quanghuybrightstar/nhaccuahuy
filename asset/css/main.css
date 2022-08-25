@@ -339,7 +339,7 @@
   .volume__area {
     display: flex;
     align-items: center;
-    margin-top: 15px;
+    margin: 13px 35px 0 0;
   }
 
   .volume__area .material-symbols-rounded {
@@ -392,18 +392,22 @@
       height: 10px;
     }
 
+    .timer {
+      margin-top: 8px;
+    }
+
     .volume__bar {
       height: 7px;
     }
 
     .material-symbols-rounded {
-      font-size: 3.8rem;
+      font-size: 3.6rem;
     }
     .volume__area .material-symbols-rounded {
-      font-size: 3.2rem;
+      font-size: 3rem;
     }
 
     #btn-toggle-play {
-      font-size: 7.5rem;
+      font-size: 7.2rem;
     }
   }
