@@ -36,7 +36,6 @@ const volumeIcon = $("#volume-icon");
 const nextBtn = $("#btn-next");
 const prevBtn = $("#btn-prev");
 const repeatBtn = $("#btn-repeat");
-// const repeatBtn = $('#btn-repeat');
 const openPlaylist = $("#open-playlist");
 const closePlaylist = $("#close-playlist");
 
@@ -153,6 +152,7 @@ const app = {
         : "0" + Math.floor(rounded / 60)
     }:${rounded % 60 >= 10 ? rounded % 60 : "0" + (rounded % 60)}`;
     },
+
     //set config cho localStorage để khi reload lại thì dữ liệu về repeat song vẫn trong storage
     setConfig: function (key, value) {
         this.config[key] = value;
@@ -212,12 +212,14 @@ const app = {
         // const cdWidth = cd.offsetWidth;
 
         //Xử lý cd quay và dừng
-        const cdThumbAnimate = cdThumb.animate([{
-            transform: "rotate(360deg)"
-        }], {
-            duration: 10000,
-            iterations: Infinity,
-        });
+        const cdThumbAnimate = cdThumb.animate(
+            [{
+                transform: "rotate(360deg)",
+            }, ], {
+                duration: 10000,
+                iterations: Infinity,
+            }
+        );
         cdThumbAnimate.pause();
 
         //Xử lý khi click play
@@ -348,7 +350,6 @@ const app = {
             const seektime = (e.offsetX / e.target.offsetWidth) * audio.duration;
             audio.currentTime = seektime;
         };
-
         progressBar.onmousemove = function (e) {
             if (isHoldingProgress) {
                 const seektime = (e.offsetX / e.target.offsetWidth) * audio.duration;
@@ -362,7 +363,7 @@ const app = {
             const seekVolume = e.offsetX / e.target.offsetWidth;
             audio.volume = seekVolume;
         };
-
+        
         volumeBar.onmousemove = function (e) {
             if (isHoldingVolume) {
                 const seekVolume = e.offsetX / e.target.offsetWidth;
@@ -443,7 +444,8 @@ const app = {
 
         //Tải thông tin bài hát đầu tiên vào UI khi chạy
         this.loadCurrentSong();
-        
+
+        //Khởi tạo giá trị ban đầu cho volume là 50%
         audio.volume = 0.5;
     },
 };
