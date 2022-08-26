@@ -85,7 +85,7 @@ const app = {
             name: "Vì Anh Đâu Có Biết",
             singer: "Madihu ft Vũ",
             path: "./asset/music/vi_anh_dau_co_biet.mp3",
-            image: "https://avatar-ex-swe.nixcdn.com/song/share/2022/08/05/a/9/1/b/1659667076562.jpg",
+            image: "https://i.scdn.co/image/ab67616d0000b2732461003df8139247949c8a9d",
         },
         {
             name: "NGƯỜI ĐÁNG THƯƠNG LÀ ANH",
@@ -106,16 +106,34 @@ const app = {
             image: "https://i.scdn.co/image/ab67616d0000b273dad54ced51a6243fcd495206",
         },
         {
+            name: "TÌNH THU SAO HẠ BUỒN",
+            singer: "DATKAA",
+            path: "./asset/music/tinh_thu_sao_ha_buon_datkaa_prod_qt_beatz.mp3",
+            image: "https://i.scdn.co/image/ab67616d00001e02dafea3235193a34a8da9842b",
+        },
+        {
             name: "CHIỀU THU HỌA BÓNG NÀNG",
-            singer: "DATKAA x QT Beatz",
+            singer: "DATKAA x QT BEATZ",
             path: "./asset/music/chieu_thu_hoa_bong_nang_datkaa_x_qt_beatz.mp3",
             image: "https://i.scdn.co/image/ab67616d0000b2734f3263b06756b88e8918bcaf",
+        },
+        {
+            name: "ĐÔNG PHAI MỜ DÁNG AI(CTHBN2)",
+            singer: "DATKAA ",
+            path: "./asset/music/dong_phai_mo_dang_ai_cthbn2_datkaa_prod_qt_beatz.mp3",
+            image: "https://i.scdn.co/image/ab67616d0000b273734a3011c2d413a1894864c8",
         },
         {
             name: "Chán Gái 707",
             singer: "LowG",
             path: "./asset/music/chan_gai_707.mp3",
             image: "https://i.scdn.co/image/ab67616d0000b27357bd65ba8b168a6dda7936ed",
+        },
+        {
+            name: "QUERRY",
+            singer: "QNT x TRUNG TRẦN ft RPT MCK",
+            path: "./asset/music/querry_qnt_x_trung_tran_ft_rpt_mck.mp3",
+            image: "https://i.scdn.co/image/ab67616d00001e0229920f5d50112ec6f72efe39",
         },
         {
             name: "EM CÓ THỂ",
