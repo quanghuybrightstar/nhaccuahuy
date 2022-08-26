@@ -118,7 +118,7 @@ const app = {
             image: "https://i.scdn.co/image/ab67616d0000b2734f3263b06756b88e8918bcaf",
         },
         {
-            name: "ĐÔNG PHAI MỜ DÁNG AI(CTHBN2)",
+            name: "ĐÔNG PHAI MỜ DÁNG AI",
             singer: "DATKAA ",
             path: "./asset/music/dong_phai_mo_dang_ai_cthbn2_datkaa_prod_qt_beatz.mp3",
             image: "https://i.scdn.co/image/ab67616d0000b273734a3011c2d413a1894864c8",
