@@ -124,6 +124,18 @@ const app = {
             image: "https://i.scdn.co/image/ab67616d0000b273734a3011c2d413a1894864c8",
         },
         {
+            name: "Vội Vàng",
+            singer: "Tạ Quang Thắng",
+            path: "./asset/music/ta_quang_thang_voi_vang.mp3",
+            image: "https://znews-photo.zingcdn.me/w660/Uploaded/neg_rtlzofn/2017_02_14/kkkkkkkkkk.png",
+        },
+        {
+            name: "NÉM CÂU YÊU VÀO KHÔNG TRUNG",
+            singer: "Hoàng Dũng",
+            path: "./asset/music/hoang_dung_nem_cau_yeu_vao_khong_trung.mp3",
+            image: "https://avatar-ex-swe.nixcdn.com/song/2022/08/26/7/9/f/5/1661496737079_640.jpg",
+        },
+        {
             name: "Chán Gái 707",
             singer: "LowG",
             path: "./asset/music/chan_gai_707.mp3",
@@ -252,7 +264,7 @@ const app = {
             [{
                 transform: "rotate(360deg)",
             }, ], {
-                duration: 10000,
+                duration: 13000,
                 iterations: Infinity,
             }
         );

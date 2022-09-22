@@ -282,14 +282,14 @@
   }
 
   .playlist-item__name{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
     line-height: 2rem;
   }
 
   .playlist-item__singer{
     display: block;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 400;
     opacity: 0.9;
     margin-top: 12px;
@@ -383,47 +383,3 @@
     color: var(--text-color);
   }
 
-  /* RESPONSIVE */
-
-  /* Tablet and mobile */
-  @media (max-width: 63.9375em) {
-    .songCurrent {
-      padding: 20px 0 25px;
-    }
-
-    .song__name {
-      margin-bottom: 8px;
-    }
-
-    .progress__bar {
-      height: 10px;
-    }
-
-    .timer {
-      margin-bottom: 8px;
-    }
-
-    .volume__bar {
-      height: 7px;
-    }
-
-    .material-symbols-rounded {
-      font-size: 3.6rem;
-    }
-    .volume__area .material-symbols-rounded {
-      font-size: 3rem;
-    }
-
-    #btn-toggle-play {
-      font-size: 7.2rem;
-    }
-
-    /* Mobile */
-    @media (max-width: 46.1875em) {
-
-      .footer {
-        font-size: 1rem;
-        bottom: -2px;
-      }
-    }
-  }
