@@ -299,9 +299,11 @@ const app = {
 
         //Khi song được play
         audio.onplay = function () {
-            _this.isPlaying = true;
             playBtn.innerText = "pause_circle";
             cdThumbAnimate.play();
+            setTimeout(() => {
+                _this.isPlaying = true;
+            }, 500)
         };
 
         //Khi song bi pause
