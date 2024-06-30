@@ -88,20 +88,26 @@ const app = {
             image: "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/12/e7/96/12e796c7-cecc-179d-524f-01e28c6272b4/cover.jpg/400x400bb.webp",
         },
         {
+            name: "Ngoại lệ của nhau",
+            singer: "Obito",
+            path: "./asset/music/ngoai_le_cua_nhau.mp3",
+            image: "https://i.ytimg.com/vi/Qaum8t5y_bk/sddefault.jpg",
+        },
+        {
             name: "Devil's Love",
-            singer: "Tobiez ft Ntyn",
+            singer: "Tobiez ft. Ntyn",
             path: "./asset/music/devils_love.mp3",
             image: "https://i1.sndcdn.com/artworks-000600609521-fhqfm1-t500x500.jpg",
         },
         {
             name: "Tell The Kids I Love Them",
-            singer: "Obito ft Shiki",
+            singer: "Obito ft. Shiki",
             path: "./asset/music/tell_the_kids_i_love_them.mp3",
             image: "https://i.ytimg.com/vi/fw3MZm2lEVA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBvtLi0yvd1UBzdmX1_TWggn3jTPA",
         },
         {
             name: "1000 Ánh Mắt",
-            singer: "Shiki ft Obito",
+            singer: "Shiki ft. Obito",
             path: "./asset/music/1000_anh_mat.mp3",
             image: "https://i.ytimg.com/vi/AJDEu1-nSTI/maxresdefault.jpg",
         },
@@ -113,7 +119,7 @@ const app = {
         },
         {
             name: "Vì Anh Đâu Có Biết",
-            singer: "Madihu ft Vũ",
+            singer: "Madihu ft. Vũ",
             path: "./asset/music/vi_anh_dau_co_biet.mp3",
             image: "https://i.scdn.co/image/ab67616d0000b2732461003df8139247949c8a9d",
         },
@@ -136,12 +142,6 @@ const app = {
             image: "https://i.scdn.co/image/ab67616d0000b2734f3263b06756b88e8918bcaf",
         },
         {
-            name: "ĐÔNG PHAI MỜ DÁNG AI",
-            singer: "DATKAA ",
-            path: "./asset/music/dong_phai_mo_dang_ai_cthbn2_datkaa_prod_qt_beatz.mp3",
-            image: "https://i.scdn.co/image/ab67616d0000b273734a3011c2d413a1894864c8",
-        },
-        {
             name: "Vội Vàng",
             singer: "Tạ Quang Thắng",
             path: "./asset/music/ta_quang_thang_voi_vang.mp3",
@@ -161,7 +161,7 @@ const app = {
         },
         {
             name: "QUERRY",
-            singer: "QNT x TRUNG TRẦN ft RPT MCK",
+            singer: "QNT x TRUNG TRẦN ft. RPT MCK",
             path: "./asset/music/querry_qnt_x_trung_tran_ft_rpt_mck.mp3",
             image: "https://i.scdn.co/image/ab67616d00001e0229920f5d50112ec6f72efe39",
         },
@@ -173,7 +173,7 @@ const app = {
         },
         {
             name: "THICHTHICH",
-            singer: "PHƯƠNG LY",
+            singer: "Phương Ly",
             path: "./asset/music/thichthich_phuong_ly.mp3",
             image: "https://i.scdn.co/image/ab67616d00001e02ad5d0332d6438843cd287992",
         },
