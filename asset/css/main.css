@@ -90,6 +90,7 @@
     border-radius: 50%;
     background-color: #333;
     background-size: cover;
+    background-position: center;
 
   }
 
@@ -270,6 +271,7 @@
   .playlist-item__thumb{
     width: 55px;
     height: 55px;
+    min-width: 55px;
     border-radius: 4px;
     background-size: cover;
     background-position: center;

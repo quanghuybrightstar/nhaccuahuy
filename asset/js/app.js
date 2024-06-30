@@ -82,6 +82,24 @@ const app = {
             image: "https://upload.wikimedia.org/wikipedia/vi/d/d0/Ros%C3%A9%E2%80%93On_the_Ground.jpg",
         },
         {
+            name: "Tell The Kids I Love Them",
+            singer: "Obito ft Shiki",
+            path: "./asset/music/tell_the_kids_i_love_them.mp3",
+            image: "https://i.ytimg.com/vi/fw3MZm2lEVA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBvtLi0yvd1UBzdmX1_TWggn3jTPA",
+        },
+        {
+            name: "1000 Ánh Mắt",
+            singer: "Shiki ft Obito",
+            path: "./asset/music/1000_anh_mat.mp3",
+            image: "https://i.ytimg.com/vi/AJDEu1-nSTI/maxresdefault.jpg",
+        },
+        {
+            name: "Anh Vẫn Đợi",
+            singer: "Shiki",
+            path: "./asset/music/anh_van_doi.mp3",
+            image: "https://i.ytimg.com/vi/FrKHM7Yie8k/maxresdefault.jpg",
+        },
+        {
             name: "Vì Anh Đâu Có Biết",
             singer: "Madihu ft Vũ",
             path: "./asset/music/vi_anh_dau_co_biet.mp3",
@@ -127,7 +145,7 @@ const app = {
             name: "Vội Vàng",
             singer: "Tạ Quang Thắng",
             path: "./asset/music/ta_quang_thang_voi_vang.mp3",
-            image: "https://znews-photo.zingcdn.me/w660/Uploaded/neg_rtlzofn/2017_02_14/kkkkkkkkkk.png",
+            image: "https://i.ytimg.com/vi/R43xOUlRHWc/maxresdefault.jpg",
         },
         {
             name: "NÉM CÂU YÊU VÀO KHÔNG TRUNG",
