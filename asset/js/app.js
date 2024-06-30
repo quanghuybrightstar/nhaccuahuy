@@ -82,6 +82,18 @@ const app = {
             image: "https://upload.wikimedia.org/wikipedia/vi/d/d0/Ros%C3%A9%E2%80%93On_the_Ground.jpg",
         },
         {
+            name: "Si Mê You",
+            singer: "Obito",
+            path: "./asset/music/si_me_you.mp3",
+            image: "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/12/e7/96/12e796c7-cecc-179d-524f-01e28c6272b4/cover.jpg/400x400bb.webp",
+        },
+        {
+            name: "Devil's Love",
+            singer: "Tobiez ft Ntyn",
+            path: "./asset/music/devils_love.mp3",
+            image: "https://i1.sndcdn.com/artworks-000600609521-fhqfm1-t500x500.jpg",
+        },
+        {
             name: "Tell The Kids I Love Them",
             singer: "Obito ft Shiki",
             path: "./asset/music/tell_the_kids_i_love_them.mp3",
@@ -106,22 +118,10 @@ const app = {
             image: "https://i.scdn.co/image/ab67616d0000b2732461003df8139247949c8a9d",
         },
         {
-            name: "NGƯỜI ĐÁNG THƯƠNG LÀ ANH",
-            singer: "OnlyC ft. Nguyễn Phúc Thiện",
-            path: "./asset/music/nguoi_dang_thuong_la_anh.mp3",
-            image: "https://i.scdn.co/image/ab67616d00001e02d6186b7d1cd7e073469bd866",
-        },
-        {
             name: "NGƯỜI CÓ THƯƠNG ?",
             singer: "DATKAA",
             path: "./asset/music/datkaa_nguoi_co_thuong.mp3",
             image: "https://i.scdn.co/image/ab67616d0000b27356d43cd0de05de88ee177766",
-        },
-        {
-            name: "DỪNG THƯƠNG",
-            singer: "DATKAA",
-            path: "./asset/music/dung_thuong_datkaa.mp3",
-            image: "https://i.scdn.co/image/ab67616d0000b273dad54ced51a6243fcd495206",
         },
         {
             name: "TÌNH THU SAO HẠ BUỒN",
