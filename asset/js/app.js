@@ -63,7 +63,14 @@ const app = {
     songFlowStates: ["repeat", "repeat_one", "shuffle"],
     songFlowIndex: 0,
     config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
-    songs: [{
+    songs: [
+        {
+            name: "BLUE",
+            singer: "Billie Eilish",
+            path: "./asset/music/billie_eilish_blue.mp3",
+            image: "https://i.ytimg.com/vi/B5j6sfDioPw/sddefault.jpg",
+        },
+        {
             name: "Viva La Vida",
             singer: "Cover By Rosé",
             path: "./asset/music/rose_viva_la_vida.mp3",
@@ -106,6 +113,24 @@ const app = {
             image: "https://i.ytimg.com/vi/fw3MZm2lEVA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBvtLi0yvd1UBzdmX1_TWggn3jTPA",
         },
         {
+            name: "Mây Lang Thang",
+            singer: "Tùng TeA & PC",
+            path: "./asset/music/may_lang_thang.mp3",
+            image: "https://i1.sndcdn.com/artworks-tNzKV3cNPD7N3wkX-hMwPzQ-t500x500.jpg",
+        },
+        {
+            name: "Có Một Người, Luôn Cười Khi Anh Đến",
+            singer: "Tofu, PC & D.Blue",
+            path: "./asset/music/co_mot_nguoi_luon_cuoi_khi_anh_den.mp3",
+            image: "https://i.ytimg.com/vi/W07ue_ToXZQ/maxresdefault.jpg",
+        },
+        {
+            name: "Già Cùng Nhau Là Được",
+            singer: "Tùng TeA ft. PC",
+            path: "./asset/music/gia_cung_nhau_la_duoc.mp3",
+            image: "https://i1.sndcdn.com/artworks-000439266552-pj6nw1-t1080x1080.jpg",
+        },
+        {
             name: "1000 Ánh Mắt",
             singer: "Shiki ft. Obito",
             path: "./asset/music/1000_anh_mat.mp3",
@@ -116,6 +141,12 @@ const app = {
             singer: "Shiki",
             path: "./asset/music/anh_van_doi.mp3",
             image: "https://i.ytimg.com/vi/FrKHM7Yie8k/maxresdefault.jpg",
+        },
+        {
+            name: "Có Đôi Điều",
+            singer: "Shiki",
+            path: "./asset/music/co_doi_dieu.mp3",
+            image: "https://i.ytimg.com/vi/xPXgebIDE6M/sddefault.jpg?v=667b9f78",
         },
         {
             name: "Vì Anh Đâu Có Biết",
@@ -140,6 +171,18 @@ const app = {
             singer: "DATKAA x QT BEATZ",
             path: "./asset/music/chieu_thu_hoa_bong_nang_datkaa_x_qt_beatz.mp3",
             image: "https://i.scdn.co/image/ab67616d0000b2734f3263b06756b88e8918bcaf",
+        },
+        {
+            name: "LỆCH",
+            singer: "Tọi",
+            path: "./asset/music/lech.mp3",
+            image: "https://i.ytimg.com/vi/m7boBs4zNys/maxresdefault.jpg",
+        },
+        {
+            name: "KHI EM LỚN (Rap version)",
+            singer: "Tọi",
+            path: "./asset/music/khi_em_lon_rap.mp3",
+            image: "https://i.ytimg.com/vi/NgAXVHAa7-Q/maxresdefault.jpg",
         },
         {
             name: "Vội Vàng",
