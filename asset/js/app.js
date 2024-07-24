@@ -66,6 +66,12 @@ const app = {
   config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
   songs: [
     {
+      name: "There Goes My Baby",
+      singer: "d4vd ",
+      path: "./asset/music/there_goes_my_baby.mp3",
+      image: "https://i.ytimg.com/vi/CEA6GCk87Ko/maxresdefault.jpg",
+    },
+    {
       name: "BLUE",
       singer: "Billie Eilish",
       path: "./asset/music/billie_eilish_blue.mp3",
@@ -79,17 +85,11 @@ const app = {
         "https://i1.sndcdn.com/artworks-X4kyxP57EHzlsX4L-aElx2Q-t500x500.jpg",
     },
     {
-      name: "Gone",
-      singer: "Rosé",
-      path: "./asset/music/rose_gone.mp3",
-      image: "https://i.scdn.co/image/ab67616d0000b273fdec91537c467efa0cd75e2f",
-    },
-    {
-      name: "On The Ground",
-      singer: "Rosé",
-      path: "./asset/music/rose_on_the_ground.mp3",
+      name: "Tình Cờ Yêu Em",
+      singer: "Kuun Đức Nam ft. Linh Thộn",
+      path: "./asset/music/tinh_co_yeu_em.mp3",
       image:
-        "https://upload.wikimedia.org/wikipedia/vi/d/d0/Ros%C3%A9%E2%80%93On_the_Ground.jpg",
+        "https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/cover/7/3/9/c/739cbcae8c54fc34829b41001d93232d.jpg",
     },
     {
       name: "Si Mê You",
@@ -136,6 +136,13 @@ const app = {
       path: "./asset/music/gia_cung_nhau_la_duoc.mp3",
       image:
         "https://i1.sndcdn.com/artworks-000439266552-pj6nw1-t1080x1080.jpg",
+    },
+    {
+      name: "EM ON KHONG",
+      singer: "HOANG DUYEN COVER",
+      path: "./asset/music/em_on_khong.mp3",
+      image:
+        "https://i.ytimg.com/vi/thIjlttba0E/maxresdefault.jpg",
     },
     {
       name: "1000 Ánh Mắt",
@@ -192,23 +199,11 @@ const app = {
       image: "https://i.ytimg.com/vi/NgAXVHAa7-Q/maxresdefault.jpg",
     },
     {
-      name: "Vội Vàng",
-      singer: "Tạ Quang Thắng",
-      path: "./asset/music/ta_quang_thang_voi_vang.mp3",
-      image: "https://i.ytimg.com/vi/R43xOUlRHWc/maxresdefault.jpg",
-    },
-    {
       name: "NÉM CÂU YÊU VÀO KHÔNG TRUNG",
       singer: "Hoàng Dũng",
       path: "./asset/music/hoang_dung_nem_cau_yeu_vao_khong_trung.mp3",
       image:
         "https://avatar-ex-swe.nixcdn.com/song/2022/08/26/7/9/f/5/1661496737079_640.jpg",
-    },
-    {
-      name: "Chán Gái 707",
-      singer: "LowG",
-      path: "./asset/music/chan_gai_707.mp3",
-      image: "https://i.scdn.co/image/ab67616d0000b27357bd65ba8b168a6dda7936ed",
     },
     {
       name: "QUERRY",
@@ -571,6 +566,7 @@ const app = {
     }, 200);
   },
   start: function () {
+    
     //Gán cấu hình từ config vào ứng dụng
     this.loadConfig();
 
