@@ -68,191 +68,190 @@ const app = {
     {
       name: "There Goes My Baby",
       singer: "d4vd ",
-      path: "./asset/music/there_goes_my_baby.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/there_goes_my_baby.mp3",
       image: "https://i.ytimg.com/vi/CEA6GCk87Ko/maxresdefault.jpg",
     },
     {
       name: "BLUE",
       singer: "Billie Eilish",
-      path: "./asset/music/billie_eilish_blue.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/billie_eilish_blue.mp3",
       image: "https://i.ytimg.com/vi/B5j6sfDioPw/sddefault.jpg",
     },
     {
       name: "Viva La Vida",
       singer: "Cover By Rosé",
-      path: "./asset/music/rose_viva_la_vida.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/rose_viva_la_vida.mp3",
       image:
         "https://i1.sndcdn.com/artworks-X4kyxP57EHzlsX4L-aElx2Q-t500x500.jpg",
     },
     {
       name: "Tình Cờ Yêu Em",
       singer: "Kuun Đức Nam ft. Linh Thộn",
-      path: "./asset/music/tinh_co_yeu_em.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/tinh_co_yeu_em.mp3",
       image:
         "https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/cover/7/3/9/c/739cbcae8c54fc34829b41001d93232d.jpg",
     },
     {
       name: "Si Mê You",
       singer: "Obito",
-      path: "./asset/music/si_me_you.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/si_me_you.mp3",
       image:
         "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/12/e7/96/12e796c7-cecc-179d-524f-01e28c6272b4/cover.jpg/400x400bb.webp",
     },
     {
       name: "Ngoại lệ của nhau",
       singer: "Obito",
-      path: "./asset/music/ngoai_le_cua_nhau.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/ngoai_le_cua_nhau.mp3",
       image: "https://i.ytimg.com/vi/Qaum8t5y_bk/sddefault.jpg",
     },
     {
       name: "Devil's Love",
       singer: "Tobiez ft. Ntyn",
-      path: "./asset/music/devils_love.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/devils_love.mp3",
       image: "https://i1.sndcdn.com/artworks-000600609521-fhqfm1-t500x500.jpg",
     },
     {
       name: "Tell The Kids I Love Them",
       singer: "Obito ft. Shiki",
-      path: "./asset/music/tell_the_kids_i_love_them.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/tell_the_kids_i_love_them.mp3",
       image:
         "https://i.ytimg.com/vi/fw3MZm2lEVA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBvtLi0yvd1UBzdmX1_TWggn3jTPA",
     },
     {
       name: "Mây Lang Thang",
       singer: "Tùng TeA & PC",
-      path: "./asset/music/may_lang_thang.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/may_lang_thang.mp3",
       image:
         "https://i1.sndcdn.com/artworks-tNzKV3cNPD7N3wkX-hMwPzQ-t500x500.jpg",
     },
     {
       name: "Có Một Người, Luôn Cười Khi Anh Đến",
       singer: "Tofu, PC & D.Blue",
-      path: "./asset/music/co_mot_nguoi_luon_cuoi_khi_anh_den.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/co_mot_nguoi_luon_cuoi_khi_anh_den.mp3",
       image: "https://i.ytimg.com/vi/W07ue_ToXZQ/maxresdefault.jpg",
     },
     {
       name: "Già Cùng Nhau Là Được",
       singer: "Tùng TeA ft. PC",
-      path: "./asset/music/gia_cung_nhau_la_duoc.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/gia_cung_nhau_la_duoc.mp3",
       image:
         "https://i1.sndcdn.com/artworks-000439266552-pj6nw1-t1080x1080.jpg",
     },
     {
       name: "EM ON KHONG",
       singer: "HOANG DUYEN COVER",
-      path: "./asset/music/em_on_khong.mp3",
-      image:
-        "https://i.ytimg.com/vi/thIjlttba0E/maxresdefault.jpg",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/em_on_khong.mp3",
+      image: "https://i.ytimg.com/vi/thIjlttba0E/maxresdefault.jpg",
     },
     {
       name: "1000 Ánh Mắt",
       singer: "Shiki ft. Obito",
-      path: "./asset/music/1000_anh_mat.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/1000_anh_mat.mp3",
       image: "https://i.ytimg.com/vi/AJDEu1-nSTI/maxresdefault.jpg",
     },
     {
       name: "Anh Vẫn Đợi",
       singer: "Shiki",
-      path: "./asset/music/anh_van_doi.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/anh_van_doi.mp3",
       image: "https://i.ytimg.com/vi/FrKHM7Yie8k/maxresdefault.jpg",
     },
     {
       name: "Có Đôi Điều",
       singer: "Shiki",
-      path: "./asset/music/co_doi_dieu.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/co_doi_dieu.mp3",
       image: "https://i.ytimg.com/vi/xPXgebIDE6M/sddefault.jpg?v=667b9f78",
     },
     {
       name: "Vì Anh Đâu Có Biết",
       singer: "Madihu ft. Vũ",
-      path: "./asset/music/vi_anh_dau_co_biet.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/vi_anh_dau_co_biet.mp3",
       image: "https://i.scdn.co/image/ab67616d0000b2732461003df8139247949c8a9d",
     },
     {
       name: "NGƯỜI CÓ THƯƠNG ?",
       singer: "DATKAA",
-      path: "./asset/music/datkaa_nguoi_co_thuong.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/datkaa_nguoi_co_thuong.mp3",
       image: "https://i.scdn.co/image/ab67616d0000b27356d43cd0de05de88ee177766",
     },
     {
       name: "TÌNH THU SAO HẠ BUỒN",
       singer: "DATKAA",
-      path: "./asset/music/tinh_thu_sao_ha_buon_datkaa_prod_qt_beatz.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/tinh_thu_sao_ha_buon_datkaa_prod_qt_beatz.mp3",
       image: "https://i.scdn.co/image/ab67616d00001e02dafea3235193a34a8da9842b",
     },
     {
       name: "CHIỀU THU HỌA BÓNG NÀNG",
       singer: "DATKAA x QT BEATZ",
-      path: "./asset/music/chieu_thu_hoa_bong_nang_datkaa_x_qt_beatz.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/chieu_thu_hoa_bong_nang_datkaa_x_qt_beatz.mp3",
       image: "https://i.scdn.co/image/ab67616d0000b2734f3263b06756b88e8918bcaf",
     },
     {
       name: "LỆCH",
       singer: "Tọi",
-      path: "./asset/music/lech.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/lech.mp3",
       image: "https://i.ytimg.com/vi/m7boBs4zNys/maxresdefault.jpg",
     },
     {
       name: "KHI EM LỚN (Rap version)",
       singer: "Tọi",
-      path: "./asset/music/khi_em_lon_rap.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/khi_em_lon_rap.mp3",
       image: "https://i.ytimg.com/vi/NgAXVHAa7-Q/maxresdefault.jpg",
     },
     {
       name: "NÉM CÂU YÊU VÀO KHÔNG TRUNG",
       singer: "Hoàng Dũng",
-      path: "./asset/music/hoang_dung_nem_cau_yeu_vao_khong_trung.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/hoang_dung_nem_cau_yeu_vao_khong_trung.mp3",
       image:
         "https://avatar-ex-swe.nixcdn.com/song/2022/08/26/7/9/f/5/1661496737079_640.jpg",
     },
     {
       name: "QUERRY",
       singer: "QNT x TRUNG TRẦN ft. RPT MCK",
-      path: "./asset/music/querry_qnt_x_trung_tran_ft_rpt_mck.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/querry_qnt_x_trung_tran_ft_rpt_mck.mp3",
       image: "https://i.scdn.co/image/ab67616d00001e0229920f5d50112ec6f72efe39",
     },
     {
       name: "EM CÓ THỂ",
       singer: "OSAD x VRT",
-      path: "./asset/music/em_co_the_osad_x_vrt.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/em_co_the_osad_x_vrt.mp3",
       image: "https://i.scdn.co/image/ab67616d00001e024a0a30b34c7e307d1667e8dc",
     },
     {
       name: "THICHTHICH",
       singer: "Phương Ly",
-      path: "./asset/music/thichthich_phuong_ly.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/thichthich_phuong_ly.mp3",
       image: "https://i.scdn.co/image/ab67616d00001e02ad5d0332d6438843cd287992",
     },
     {
       name: "Can't Help Falling in Love",
       singer: "Cover By Alyssa Baker",
-      path: "./asset/music/can_t_help_falling_in_love_cover_by_alyssa_baker.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/can_t_help_falling_in_love_cover_by_alyssa_baker.mp3",
       image:
         "https://i.ytimg.com/vi/QT18QfowCFI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKMWs6XoRMLj0BktmNlPj2xYFKQw",
     },
     {
       name: "Runaway",
       singer: "AURORA",
-      path: "./asset/music/runaway_aurora.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/runaway_aurora.mp3",
       image: "https://i.scdn.co/image/ab67616d0000b27365a472593611a55c50bc0f8f",
     },
     {
       name: "double take",
       singer: "dhruv",
-      path: "./asset/music/double_take_dhruv.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/double_take_dhruv.mp3",
       image:
         "https://i.ytimg.com/vi/lar8IBF_4II/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBE_DlB15Wxat_3llVqZX1NtAF0vw",
     },
     {
       name: "Đi Theo Bóng Mặt Trời",
       singer: "Đen ft. Tăng Ngân Hà",
-      path: "./asset/music/den_di_theo_bong_mat_troi_ft_tang_ngan_ha.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/den_di_theo_bong_mat_troi_ft_tang_ngan_ha.mp3",
       image: "https://i.scdn.co/image/ab67616d00001e022fb6442b420a851093bd3282",
     },
     {
       name: "Ai muốn nghe không",
       singer: "Đen",
-      path: "./asset/music/den_ai_muon_nghe_khong.mp3",
+      path: "https://bh8ewkfuctgzct2l.public.blob.vercel-storage.com/den_ai_muon_nghe_khong.mp3",
       image: "https://i.scdn.co/image/ab67616d0000b27365896c6baea3e99f033ed03d",
     },
   ],
@@ -566,7 +565,6 @@ const app = {
     }, 200);
   },
   start: function () {
-    
     //Gán cấu hình từ config vào ứng dụng
     this.loadConfig();
 
